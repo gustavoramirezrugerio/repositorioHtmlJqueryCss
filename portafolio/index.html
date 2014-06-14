@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<title>Responsive Design</title>
+	<meta charset="utf-8">
+
+  <!--Un favicono, es conocido como icono de página -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  
+  <!-- Esta etiqueta proporciona una descripción breve de la página. En algunos casos esta descripción se utiliza como parte del fragmento que se muestra en los resultados de búsqueda. -->
+  <meta name="description" content="Ingresa una descripción de la pagina">
+
+  <!-- permite establecer una serie de palabras separadas por comas que le indican a los motores de búsqueda cuáles son las que definen mejor el tipo de sitio que tenemos. Es indistinto si se usan mayúsculas o minúsculas. -->
+	<meta name="keywords" content="portafolio,uda,curso,taller">
+
+  <!-- Indica el nombre de la persona o entidad que ha creado el contenido de la página. -->
+	<meta name="author" content="Ingresa tu nombre">
+
+  <!-- Estas etiqueta permite la comunicación con una hoja de estilo externa -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/kwicks-slider.css" type="text/css" media="screen">
+	
+  <!-- Estas etiqueta manda a traer un archivo .js 
+  JavaScript es un lenguaje de programación que permite a los desarrolladores crear acciones en sus páginas web. -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	  
+	<script type="text/javascript" src="js/touchTouch.jquery.js"></script>  
+  <script type="text/javascript" src="js/iniciarPortafolio.js"></script>
+	</head>
+
+
+	<body>
+    <div class="spinner"></div> 
+<!--============================== Inicia header =================================-->
+<header>
+      <div class="container clearfix">
+    <div class="row">
+          <div class="span12">
+        <div class="navbar navbar_">
+              <div class="container">
+            <h1 class="brand brand_"><a href="index.html"><img alt="" src="img/logo.gif"> </a></h1>
+            <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
+            <div class="nav-collapse nav-collapse_  collapse">
+                  <ul class="nav sf-menu">
+                <li class="active"><a href="index.html">Soy...</a></li>
+                <li><a href="index-2.html">Galería</a></li>
+                <li><a href="index-4.html">Contacto</a></li>
+              </ul>
+                </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+</header>
+<!--============================== Finaliza header =================================-->
+
+<!--============================== Inicializa el contenido de la información  =================================-->
+<div class="bg-content">      
+      <div class="container"> <!--Inicia Contendor  del Slider-->
+          <div class="row">
+            <div class="span12"> 
+                  <!--============================== Inicializa slider =================================-->
+                  <div class="flexslider"> 
+                    <span id="responsiveFlag"></span> <!-- Genera el efecto Bandera con Jquery -->
+                      <ul class="slides">
+                        <li> <img src="img/slide-1.jpg" alt="Descripción de la imagen" > </li>
+                        <li> <img src="img/slide-2.jpg" alt="Descripción de la imagen" > </li>
+                        <li> <img src="img/slide-3.jpg" alt="Descripción de la imagen" > </li>
+                        <li> <img src="img/slide-4.jpg" alt="Descripción de la imagen" > </li>
+                        <li> <img src="img/slide-5.jpg" alt="Descripción de la imagen" > </li>
+                      </ul>
+                  </div>
+                  <!--============================== Finaliza slider =================================-->              
+
+                  <!--============================== Inicializa slogan =================================-->              
+                  <div class="block-slogan">
+                        <h2>Bienvenidos!</h2>
+                        <div>
+                            <p>Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. </p>
+                        </div>
+                  </div>
+                  <!--============================== Finaliza slogan =================================-->              
+              </div>
+          </div>
+      </div><!--Finaliza el contendor del Slider-->
+      
+
+
+
+      <!--============================== Inicia contenido =================================-->      
+      <div id="content" class="content-extra">
+
+                  <!--============================== Inicia secciones del portafolio =================================-->      
+                  <div class="container">
+                      <div class="row">
+                            <ul class="thumbnails thumbnails-1">
+                                  <li class="span3">
+                                        <div class="thumbnail thumbnail-1">
+                                      <h3>Editorial</h3>
+                                      <img  src="img/page1-img1.jpg" alt="">
+                                      <section> <strong>Título </strong>
+                                            <p>Aquí va una breve introducción. </p>
+                                            <a href="index-4.html" class="btn btn-1">Ver más...</a> </section>
+                                    </div>
+                                      </li>
+                                  <li class="span3">
+                                        <div class="thumbnail thumbnail-1">
+                                      <h3>Ilustración</h3>
+                                      <img  src="img/page1-img2.jpg" alt="">
+                                      <section> <strong>Titulo</strong>
+                                            <p>Aquí va una breve introducción.</p>
+                                            <a href="index-4.html" class="btn btn-1">Ver más...</a> </section>
+                                    </div>
+                                      </li>
+                                  <li class="span3">
+                                        <div class="thumbnail thumbnail-1">
+                                      <h3>Marca</h3>
+                                      <img  src="img/page1-img3.jpg" alt="">
+                                      <section> <strong>Titulo</strong>
+                                        <p>Aquí va una breve introducción.</p>
+                                            <a href="index-4.html" class="btn btn-1">Ver más...</a> </section>
+                                    </div>
+                                      </li>
+                                  <li class="span3">
+                                        <div class="thumbnail thumbnail-1">
+                                      <h3 class="title-1 extra">Fotografía</h3>
+                                      <img  src="img/page1-img4.jpg" alt="">
+                                      <section> <strong>Titulo</strong>
+                                        <p>Aquí va una breve introducción.</p>
+                                            <a href="index-4.html" class="btn btn-1">Ver más...</a> </section>
+                                    </div>
+                                      </li>
+                            </ul>
+                        </div>
+                    </div>
+              <!--============================== Finaliza secciones del portafolio =================================-->      
+
+
+
+
+            <!--============================== Inicia información sobre mi  =================================-->      
+            <div class="container">
+                  <div class="row">
+                      <article>
+                            <h3>Un poco sobre mi...</h3>
+                            <div class="wrapper">
+                            
+                            <figure class="img-indent">
+                              <img src="img/page1-img5.jpg " alt="" />
+                            </figure>
+
+                            <div class="inner-1 overflow extra">
+                                    <div class="txt-1">Información...</div>
+                                      <p>Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción. Aquí va una breve introducción.</p>
+                            </div>
+                        </div>
+                      </article>
+                      
+                    </div>
+              </div>
+              <!--============================== Finaliza información sobre mi  =================================-->      
+
+
+
+
+</div>        
+<!--============================== Finaliza el contenido de la información  =================================-->
+
+
+
+<!--============================== Inicializa footer =================================-->
+<footer>
+      <div class="container clearfix">
+    <ul class="list-social pull-right">
+          <li><a class="icon-1" href="https://www.facebook.com/beba.campech" target="_black"></a></li>
+          <li><a class="icon-3" href="https://twitter.com/mcampech" target="_black"></a></li>
+          <li><a class="icon-4" href="https://plus.google.com/100877799716577498818/posts" target="_black"></a></li>
+        </ul>
+    <div class="privacy pull-left">Derechos reservados.....</div>
+  </div>
+    </footer>
+<!--============================== Finaliza footer =================================-->
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!--  Cuando termina de cargar el DOM de la pagina se carga el Bootstrap de twitter para cargar las extensiones de JavaScript adicionales.-->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{margin:0;}
+article{
+   float:left;
+   width:50%;
+}
+
+body{
+   background:#F1F4C3;
+   color:white;
+   font-size:16px;
+   font-family:Arial;
+   text-shadow:1px 1px 0 black;
+}
+
+section{
+   background:#000;
+   margin:10px auto;
+   overflow:hidden;
+   padding:10px 0;
+   text-align:center;
+   width:1000px;
+}
+
+.fila1{
+   background:#E5EA82;
+   color:#000;
+}
+
+.fila2{
+   background:#C4DF86;
+   color:#000;
+}
+
+@media screen and (max-width:1000px){
+   section{
+      width:100%;
+   }
+}
+
+@media screen and (max-width:700px){
+   article{
+      width:100%;
+   }
+}
